@@ -17,11 +17,7 @@ class LinkedList:
             current = current.get_next()
         return result
     
-    def get_size(self):
-        return self.__size
-    
-    def add(self, value):
-        new_node = Node(value)
+    def add(self, new_node:Node):
         if self.__head == None:
             self.__head = new_node
         else:
@@ -31,7 +27,6 @@ class LinkedList:
 
 if __name__ == "__main__":
     test = LinkedList()
-    test.add(1)
-    test.add(2)
-    test.add(3)
+    test.add(Node(1))
+    test.add(Node(2))
     print(test)
