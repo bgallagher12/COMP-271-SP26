@@ -6,31 +6,23 @@ from node import Node
 class Queue(EnhancedLinkedList):
 
     def __init__(self):
+        """Superfluous constructor, but it is here to show that we can
+        extend the EnhancedLinkedList class."""
         super().__init__()
 
     def enqueue(self, Node) -> None:
+        """Enqueueing is just adding to the end of the queue, which is
+        the tail of the linked list. So we can just reuse the add method
+        from the parent class."""
         self.add(Node)
 
     def dequeue(self) -> Node | None:
-        # Grab whatever is in front of the queue. If could be just
-        # a plain None. That's fine to return too, indicating that
-        # the queue is empty.
-        node_at_the_front = self._head
-        # We may have some work to do if the item in the front of 
-        # the queue is an actual node.
-        if node_at_the_front is not None:
-            # Move the head pointer to the next object -- even if
-            # it's a None.
-            self._head = self._head.get_next()
-            # Adjust size down
-            self._size -= 1
-            # If we just emptied the queue, remember to 
-            # move the tail pointer to None as well.
-            if self._size == 0:
-                self._tail = None
-        # Return the removed object
-        return node_at_the_front
-        
+        """Dequeueing is removing from the front of the queue."""
+        return self.remove(0)
+    
+    def peek(self) -> Node | None:
+        """Returns the node at the front of the queue without removing it."""
+        return self.inspect(0)
 
 
 # Brutally naive testing
