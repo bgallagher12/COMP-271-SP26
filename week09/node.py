@@ -3,6 +3,8 @@ class Node:
     """A node in a linked list."""
     
     def __init__(self, value):
+        """Initializes a node with the given value. A 
+        new node always points to None for its next field."""
         self.__value = value
         self.__next = None
 
