@@ -13,18 +13,19 @@
       "source": "public class Node {\n    \n    private String value;\n    private Node next;\n\n    public Node(String value) {\n        this.value = value;\n        this.next = null;\n    }\n\n    public String getValue() {\n        return this.value;\n    }\n\n    public Node getNext() {\n        return this.next;\n    }\n\n    public void setNext(Node next) {\n        this.next = next;\n    }\n}",
       "metadata": {
         "language": "java",
+        "id": "919ad6fe-7bee-4346-b416-94ed2e5817fb",
         "executionSummary": {
-          "executionOrder": 4,
+          "executionOrder": 1,
           "success": true
         }
       },
-      "execution_count": 4,
+      "execution_count": 1,
       "outputs": [
         {
           "output_type": "execute_result",
           "data": {},
           "metadata": {},
-          "execution_count": 4
+          "execution_count": 1
         }
       ]
     },
@@ -41,14 +42,7 @@
         }
       },
       "execution_count": 5,
-      "outputs": [
-        {
-          "output_type": "execute_result",
-          "data": {},
-          "metadata": {},
-          "execution_count": 5
-        }
-      ]
+      "outputs": []
     },
     {
       "id": "4e97beab-1888-4719-8ed3-645e7bc5db87",

@@ -1,0 +1,60 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 5,
+  "metadata": {
+    "language_info": {
+      "name": "java"
+    }
+  },
+  "cells": [
+    {
+      "id": "05844e64-aa3f-4cf8-b3d5-090f36c80972",
+      "cell_type": "markdown",
+      "source": "# Reason \\#831 to love Notebooks",
+      "metadata": {
+        "language": "markdown",
+        "id": "05844e64-aa3f-4cf8-b3d5-090f36c80972"
+      }
+    },
+    {
+      "id": "9aa9970a-3bc5-47e8-abd8-5c6e6326e7a4",
+      "cell_type": "code",
+      "source": "public final class Hello {\n\n    private static final String GREETING = \"Hello, World!\";\n\n    public static void main(String[] args) {\n        System.out.println(GREETING);\n    }\n}",
+      "metadata": {
+        "language": "java"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "id": "c6416f37-8f83-49e3-9981-91282d4b22e5",
+      "cell_type": "code",
+      "source": "Hello.main(null);",
+      "metadata": {
+        "language": "java"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "id": "4eadacf3-8a3a-47de-8eb5-c99f48706546",
+      "cell_type": "code",
+      "source": "Hello.main(new String[0]);",
+      "metadata": {
+        "language": "java"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "id": "e0bb411c-fca8-4332-8e5b-2b2d0c003ad2",
+      "cell_type": "code",
+      "source": "String[] args = {\"This\", \"is\", \"amaging\"};\nHello.main(args);",
+      "metadata": {
+        "language": "java"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
