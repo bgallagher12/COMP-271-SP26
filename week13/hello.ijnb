@@ -8,12 +8,12 @@
   },
   "cells": [
     {
-      "id": "05844e64-aa3f-4cf8-b3d5-090f36c80972",
+      "id": "cdc4fef7-8a92-4c54-b7f9-93b31f8c852e",
       "cell_type": "markdown",
-      "source": "# Reason \\#831 to love Notebooks",
+      "source": "### Interactive **Java** Notebooks -- `ijnb`",
       "metadata": {
         "language": "markdown",
-        "id": "05844e64-aa3f-4cf8-b3d5-090f36c80972"
+        "id": "cdc4fef7-8a92-4c54-b7f9-93b31f8c852e"
       }
     },
     {
@@ -27,7 +27,7 @@
       "outputs": []
     },
     {
-      "id": "c6416f37-8f83-49e3-9981-91282d4b22e5",
+      "id": "2621c4f9-8bbd-4891-b894-cd6b4f7c24f8",
       "cell_type": "code",
       "source": "Hello.main(null);",
       "metadata": {
@@ -37,7 +37,7 @@
       "outputs": []
     },
     {
-      "id": "4eadacf3-8a3a-47de-8eb5-c99f48706546",
+      "id": "2a4877c1-fe10-4028-9858-85af1ff4a744",
       "cell_type": "code",
       "source": "Hello.main(new String[0]);",
       "metadata": {
@@ -47,7 +47,7 @@
       "outputs": []
     },
     {
-      "id": "e0bb411c-fca8-4332-8e5b-2b2d0c003ad2",
+      "id": "08b984ab-da60-4207-bffe-a86f5408e066",
       "cell_type": "code",
       "source": "String[] args = {\"This\", \"is\", \"amaging\"};\nHello.main(args);",
       "metadata": {
